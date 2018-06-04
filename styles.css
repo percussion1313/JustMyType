@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;	
+}
+
+#prompt-container {
+  font-family: Courier New, Courier, monospace;
+  font-size: 24px;
+  letter-spacing: 3px;
+}
+
+#blue-block {
+  opacity: 0.65;
+  filter: alpha(opacity=50);
+  position: relative;
+  margin-top: 10px;
+  width: 1px;
+  height: 15px;
+  background-color:navy;
+  right: 0px;
+}
+
+.keyboard-container {
+  margin-top: 200px;
+}
+
+#target-letter {
+  font-size: 38px;  
+}
+
+.keys-row {
+  margin-top: 40px;
+  padding: 10px 0;
+}
+
+#feedback {
+  font-size: 30px;
+}
+.glyphicon-ok {
+  color: #1DA237
+}
+
+.glyphicon-remove {
+  color : #CD2626
+}
+
+.well{
+  color: #4fd0ff;
+  background-color: #000;
+  box-shadow: inset 1px -1px 1px grey;
+}
+
+body{
+  background-color: azure;
+}
+
